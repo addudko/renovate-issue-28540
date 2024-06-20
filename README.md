@@ -5,14 +5,23 @@ Renovate bot is self-hosted, version 37.381.6.
 
 ## Current behavior
 
-Renovate can't get module from subgroup repository
+Renovate can't get submodule from gitlab repository
+```bash
+DEBUG: Go lookup source url https://gitlab.com/test-nested/services/module-test for module gitlab.com/test-nested/services/module-test/api (repository=addudko/renovate-issue-28540)
+DEBUG: Go lookup source url https://gitlab.com/test-nested/services/module-test for module gitlab.com/test-nested/services/module-test (repository=addudko/renovate-issue-28540)
+DEBUG: GET https://gitlab.com/api/v4/projects/test-nested%2Fservices%2Fmodule-test%2Fapi/repository/tags?per_page=100 = (code=ERR_NON_2XX_3XX_RESPONSE, statusCode=404 retryCount=0, duration=691) (repository=addudko/renovate-issue-28540)
+DEBUG: GitLab API 404 (repository=addudko/renovate-issue-28540)
+       "url": "https://gitlab.com/api/v4/projects/test-nested%2Fservices%2Fmodule-test%2Fapi/repository/tags?per_page=100"
+DEBUG: Datasource 404 (repository=addudko/renovate-issue-28540)
+       "datasource": "go",
+       "packageName": "gitlab.com/test-nested/services/module-test/api",
+       "url": "https://gitlab.com/api/v4/projects/test-nested%2Fservices%2Fmodule-test%2Fapi/repository/tags?per_page=100"
+DEBUG: Failed to look up go package gitlab.com/test-nested/services/module-test/api (repository=addudko/renovate-issue-28540, packageFile=go.mod, dependency=gitlab.com/test-nested/services/module-test/api)
+```
 
 ## Expected behavior
 
-If try to directly call the same url - you also get 404, but if you add after sub-group the repository name - you'll get the correct page:
-```
-https://gitlab.com/api/v4/projects/test-nested%2Fservices%2Fmodule-test/repository/tags?per_page=100
-```
+Renovate checks repository submodule correctly.
 
 ## Link to the Renovate issue or Discussion
 
