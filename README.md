@@ -1,17 +1,19 @@
-# minimal-reproduction-template
+# 28540
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+Reproduction for [Renovate issue 28540](https://github.com/renovatebot/renovate/issues/28540). 
+Renovate bot is self-hosted, version 37.381.6.
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate can't get module from subgroup repository
 
 ## Expected behavior
 
-Explain the expected behavior here.
+If try to directly call the same url - you also get 404, but if you add after sub-group the repository name - you'll get the correct page:
+```
+https://gitlab.com/api/v4/projects/test-nested%2Fservices%2Fmodule-test/repository/tags?per_page=100
+```
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/issues/28540
