@@ -1,4 +1,6 @@
 gitlab.com/test-nested/services/module-test v0.0.0-20240620200252-db3e9b383508 h1:Cqzh8CtH8H4rJFCh9aYlOlYGfK6NJHhnleagg5u0Fok=
 gitlab.com/test-nested/services/module-test v0.0.0-20240620200252-db3e9b383508/go.mod h1:JS26F/+xQnJkWbLDeeMBHetjk5Gz9MYPYmK0coo/8nM=
+gitlab.com/test-nested/services/module-test v0.0.1 h1:rHcME2WwYYtXz42+rS5LGHxts+Smg3nu8lWfhdgDyVE=
+gitlab.com/test-nested/services/module-test v0.0.1/go.mod h1:JS26F/+xQnJkWbLDeeMBHetjk5Gz9MYPYmK0coo/8nM=
 gitlab.com/test-nested/services/module-test/api v0.0.0-20240620200252-db3e9b383508 h1:9YqbgGXmcamE0ejPOukawzVlO/rn6ekDmreA33LOq9w=
 gitlab.com/test-nested/services/module-test/api v0.0.0-20240620200252-db3e9b383508/go.mod h1:UmfNwOxbAnqTbNd6AB6jt76ExuUJj7pVVqgeSYIk0Gg=
