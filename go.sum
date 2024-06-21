@@ -1,4 +1,6 @@
 gitlab.com/test-nested/services/services-subgroup/module-test v0.0.0-20240621083552-75992df8e8a1 h1:2Q3VabZsmNXeH7alVGul7AG0SP2hPmsgTA3EDZZQvFw=
 gitlab.com/test-nested/services/services-subgroup/module-test v0.0.0-20240621083552-75992df8e8a1/go.mod h1:GkZilQP1n4+3IuFMQ/bu1UzpjLErfASy9xho9ZoQ7Wo=
+gitlab.com/test-nested/services/services-subgroup/module-test v0.0.1 h1:XRfA/5m3j2UC1LPMzQzOSE2qFL+u9tWco7VXTYLxdmw=
+gitlab.com/test-nested/services/services-subgroup/module-test v0.0.1/go.mod h1:GkZilQP1n4+3IuFMQ/bu1UzpjLErfASy9xho9ZoQ7Wo=
 gitlab.com/test-nested/services/services-subgroup/module-test/api v0.0.0-20240621083552-75992df8e8a1 h1:k+gDlTlOX+PoK9Bt8hbtZA2GwhFr+vSxkgt/x15VD1g=
 gitlab.com/test-nested/services/services-subgroup/module-test/api v0.0.0-20240621083552-75992df8e8a1/go.mod h1:sVU79YogOcUrereJn41LzevBFiG8DvIvpbm+5Yv7uGw=
