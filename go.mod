@@ -4,5 +4,5 @@ go 1.22.2
 
 require (
 	gitlab.com/test-nested/services/services-subgroup/module-test v0.0.0-20240621083552-75992df8e8a1
-	gitlab.com/test-nested/services/services-subgroup/module-test/api v0.0.0-20240621083552-75992df8e8a1
+	gitlab.com/test-nested/services/services-subgroup/module-test/api v0.0.0-20240621085857-2d26b8c1cf50
 )
