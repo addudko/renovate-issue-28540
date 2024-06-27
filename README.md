@@ -3,10 +3,13 @@
 Reproduction for [Renovate issue 28540](https://github.com/renovatebot/renovate/issues/28540). 
 Renovate bot is self-hosted, version 37.381.6.
 Read access to private gitlab modules:
+```bash
 login renovejttest
 password glpat-syFsz-ZZsra91QkizCdm
+```
 
 ```bash
+GOPROXY=https://proxy.golang.org, direct
 GOPRIVATE=https://gitlab.com/test-renovate-group*
 ```
 
