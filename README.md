@@ -9,7 +9,7 @@ password glpat-syFsz-ZZsra91QkizCdm
 ```
 
 ```bash
-GOPROXY=https://proxy.golang.org, direct
+GOPROXY=https://proxy.golang.org,direct
 GOPRIVATE=https://gitlab.com/test-renovate-group*
 ```
 
