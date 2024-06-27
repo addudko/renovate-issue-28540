@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gitlab.com/test-nested/services/services-subgroup/module-test"
-	"gitlab.com/test-nested/services/services-subgroup/module-test/api"
+	"gitlab.com/test-renovate-group/test-renovate-subgroup/module-test"
+	"gitlab.com/test-renovate-group/test-renovate-subgroup/module-test/api"
 )
 
 type Bar struct {
